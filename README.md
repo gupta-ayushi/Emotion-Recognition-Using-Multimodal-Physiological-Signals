@@ -2,7 +2,9 @@
 This is a deep learning project aimed at advancing emotion recognition using multimodal physiological signals from the DEAP dataset. The project explores EEG, EOG, EMG, and GSR signals to predict emotional states categorized by the valence-arousal model. Implemented models include LSTM, GRU, and BiLSTM for effective classification and evaluation of emotional responses. This research contributes to enhancing human-computer interaction and personalized user experiences through robust emotion recognition technologies.
 # Dataset
 The dataset can be downloaded from http://www.eecs.qmul.ac.uk/mmv/datasets/deap/
-\nThe DEAP (Database for Emotion Analysis using Physiological Signals) dataset is a comprehensive resource for emotion analysis that includes EEG, physiological, and video signals. It is designed to facilitate research in emotion recognition by providing detailed recordings of participants' physiological responses while they watched music videos intended to elicit various emotional states.
+
+
+The DEAP (Database for Emotion Analysis using Physiological Signals) dataset is a comprehensive resource for emotion analysis that includes EEG, physiological, and video signals. It is designed to facilitate research in emotion recognition by providing detailed recordings of participants' physiological responses while they watched music videos intended to elicit various emotional states.
 # Pre-processed Data
 For this project, we utilize the pre-processed data files from the DEAP dataset, which are available in NumPy format. The dataset comprises 32 `.dat` files, each corresponding to one participant. The data has been down sampled from the original 512 Hz to 128 Hz to reduce computational complexity while preserving essential information. Each file contains data from one of the 32 participants.
 # Data Structure
