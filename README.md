@@ -2,7 +2,7 @@
 This is a deep learning project aimed at advancing emotion recognition using multimodal physiological signals from the DEAP dataset. The project explores EEG, EOG, EMG, and GSR signals to predict emotional states categorized by the valence-arousal model. Implemented models include LSTM, GRU, and BiLSTM for effective classification and evaluation of emotional responses. This research contributes to enhancing human-computer interaction and personalized user experiences through robust emotion recognition technologies.
 # Dataset
 The dataset can be downloaded from http://www.eecs.qmul.ac.uk/mmv/datasets/deap/
-The DEAP (Database for Emotion Analysis using Physiological Signals) dataset is a comprehensive resource for emotion analysis that includes EEG, physiological, and video signals. It is designed to facilitate research in emotion recognition by providing detailed recordings of participants' physiological responses while they watched music videos intended to elicit various emotional states.
+\nThe DEAP (Database for Emotion Analysis using Physiological Signals) dataset is a comprehensive resource for emotion analysis that includes EEG, physiological, and video signals. It is designed to facilitate research in emotion recognition by providing detailed recordings of participants' physiological responses while they watched music videos intended to elicit various emotional states.
 # Pre-processed Data
 For this project, we utilize the pre-processed data files from the DEAP dataset, which are available in NumPy format. The dataset comprises 32 `.dat` files, each corresponding to one participant. The data has been down sampled from the original 512 Hz to 128 Hz to reduce computational complexity while preserving essential information. Each file contains data from one of the 32 participants.
 # Data Structure
@@ -20,29 +20,29 @@ Each pre-processed data file contains two arrays:
 
 # Methodology
 # Modules Implemented:
--Data Loading and Preprocessing:
+1. Data Loading and Preprocessing:
 Load preprocessed data files for each participant.
 Segment data into epochs and assign labels based on the valence-arousal model.
--Normalization and Scaling:
+2. Normalization and Scaling:
 Normalize and scale segmented epochs to prepare data for model training.
 Reshape data for efficient processing using deep learning models.
--Model Training and Evaluation:
+3. Model Training and Evaluation:
 Implement LSTM, GRU, and BiLSTM models for emotion classification.
 Evaluate models using metrics like accuracy, precision, recall, and F1-score on validation data
 
 # Results
 # Model Performance
-LSTM: Accuracy = 70.69%
-GRU: Accuracy = 73%
-BiLSTM: Accuracy = 73%
+1. LSTM: Accuracy = 70.69%
+2. GRU: Accuracy = 73%
+3. BiLSTM: Accuracy = 73%
 # Confusion Matrix
-LSTM
+1. LSTM
 ![image](https://github.com/user-attachments/assets/60a8eac3-1766-4273-887d-d32ff6affa7b)
 
-GRU
+2. GRU
 ![image](https://github.com/user-attachments/assets/113e4a29-f5b0-438f-9b0a-c857d937f883)
 
-BiLSTM
+3. BiLSTM
 ![image](https://github.com/user-attachments/assets/222b8bbc-668a-44dd-adc1-ccbd18ad43bb)
 
 
