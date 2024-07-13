@@ -39,12 +39,18 @@ Evaluate models using metrics like accuracy, precision, recall, and F1-score on 
 3. BiLSTM: Accuracy = 73%
 # Confusion Matrix
 1. LSTM
+
+   
 ![image](https://github.com/user-attachments/assets/60a8eac3-1766-4273-887d-d32ff6affa7b)
 
 2. GRU
+
+   
 ![image](https://github.com/user-attachments/assets/113e4a29-f5b0-438f-9b0a-c857d937f883)
 
 3. BiLSTM
+
+   
 ![image](https://github.com/user-attachments/assets/222b8bbc-668a-44dd-adc1-ccbd18ad43bb)
 
 
