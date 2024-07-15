@@ -53,4 +53,6 @@ Evaluate models using metrics like accuracy, precision, recall, and F1-score on 
    
 ![image](https://github.com/user-attachments/assets/222b8bbc-668a-44dd-adc1-ccbd18ad43bb)
 
+4. BiLSTM and LSTM
+   ![image](https://github.com/user-attachments/assets/8533be56-dc1d-4132-bbc9-dcb8726bdc3b)
 
